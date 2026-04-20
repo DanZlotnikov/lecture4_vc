@@ -1,0 +1,21 @@
+{
+  "name": "lecture4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "example:controllers": "node examples/01_controllers.js",
+    "example:refactor": "node examples/02_refactoring_route.js",
+    "example:validation": "node examples/03_validation.js",
+    "example:errors": "node examples/04_error_handling.js",
+    "example:query": "node examples/05_query_params.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
